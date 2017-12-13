@@ -3,13 +3,26 @@ body {
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
+  opacity: 0.9;
 }
 a {
   color: seashell;
 }
+header {
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 5;
+  height: 69px;
+  position: fixed;
+}
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
 nav {
- justify-content: space-around;
+ justify-content: flex-end;
 }
 .flex {
   display: flex;
+  justify-content: center;
 }
