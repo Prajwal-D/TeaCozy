@@ -4,12 +4,12 @@ body {
   font-size: 22px;
   color: seashell;
 }
-nav {
-  text-align:right;
-}
 a {
   color: seashell;
 }
-.header {
-  display: inline-flex;
+nav {
+ justify-content: space-around;
+}
+.flex {
+  display: flex;
 }
